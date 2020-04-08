@@ -32,6 +32,9 @@ import { AuthenticationModule } from './authentication/authentication.module';
     FlexLayoutModule,
     AuthenticationModule
   ],
+  exports: [
+    AuthenticationModule
+  ],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]

@@ -9,6 +9,9 @@ import { LogInComponent } from './log-in/log-in.component';
   imports: [
     CommonModule,
   ],
+  exports: [
+    LogInComponent
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AuthenticationModule { }
