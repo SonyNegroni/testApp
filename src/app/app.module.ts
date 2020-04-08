@@ -31,6 +31,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     FormsModule,
     FlexLayoutModule,
     AuthenticationModule
+    
   ],
   exports: [
     AuthenticationModule
