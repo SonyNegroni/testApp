@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background-color: #ffd740;
+  background-color: rgb(126, 117, 136);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,17 +34,17 @@ body {
 }
 
 .box {
-  position: relative;
-  top: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  float: right;
   opacity: 1;
-  float: left;
   padding: 60px 50px 40px 50px;
   width: 100%;
   background: #fff;
   border-radius: 10px;
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
+  transform: translate(-50%, -50%);
+
   z-index: 5;
   max-width: 330px;
 }
@@ -58,7 +58,10 @@ body {
   z-index: -1;
 }
 .mat-button-wrapper {
- color: #ffd740;
+ color: #0c9ca1;
+}
+.mat-button.mat-accent, .mat-icon-button.mat-accent, .mat-stroked-button.mat-accent {
+  color: #0c9ca1;
 }
 
 .login-wrapper .example-form {

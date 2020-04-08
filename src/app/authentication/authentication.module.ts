@@ -1,6 +1,7 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { LogInComponent } from './log-in/log-in.component';
+import { AngularMaterialModule } from '../angular-material.module';
 
 
 
@@ -8,9 +9,11 @@ import { LogInComponent } from './log-in/log-in.component';
   declarations: [LogInComponent],
   imports: [
     CommonModule,
+    AngularMaterialModule
   ],
   exports: [
-    LogInComponent
+    LogInComponent,
+    AngularMaterialModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
