@@ -8,11 +8,11 @@
       <form class="example-form">
         <mat-card-content>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Username">
+            <input matInput placeholder="Email" type="email" ng-model="email" required>
           </mat-form-field>
   
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Password">
+            <input matInput placeholder="Password" type="password" ng-model="password" required>
           </mat-form-field>
         </mat-card-content>
         <button mat-stroked-button color="accent" class="btn-block">Log in</button>
@@ -20,3 +20,5 @@
     </mat-card>
   
   </div>
+
+
