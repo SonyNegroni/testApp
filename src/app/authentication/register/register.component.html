@@ -8,15 +8,17 @@
   
         <mat-card-content>
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Username">
+            <input matInput placeholder="Username" type="text" name="user" 
+              ngModel pattern="[a-zA-Z0-9 ]*" ng-model="user" required>
           </mat-form-field>
   
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Email">
+            <input matInput placeholder="Email" type="email" ng-model="email" required>
+            
           </mat-form-field>
   
           <mat-form-field class="example-full-width">
-            <input matInput placeholder="Password">
+            <input matInput placeholder="Password" type="password" ng-model="password" required>
           </mat-form-field>
   
         </mat-card-content>
