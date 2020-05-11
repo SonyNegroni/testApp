@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserModule }    from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 /* Routing */
 import { AppRoutingModule } from './app-routing.module';
 
@@ -26,6 +26,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AngularMaterialModule,
     ReactiveFormsModule,
     FormsModule,
