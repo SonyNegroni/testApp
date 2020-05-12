@@ -1,5 +1,5 @@
-import { BrowserModule } from '@angular/platform-browser';
-
+import { BrowserModule }    from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 /* Routing */
 import { AppRoutingModule } from './app-routing.module';
 
@@ -15,6 +15,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { AuthenticationModule } from './authentication/authentication.module';
 
+import * as rxjs from 'rxjs';
+
+rxjs.of(1, 2, 3);
 
 @NgModule({
   declarations: [
@@ -26,6 +29,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     AngularMaterialModule,
     ReactiveFormsModule,
     FormsModule,

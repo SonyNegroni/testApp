@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Sebastian",
+      "password": "Eschweiler",
+      "email": "sebastian@codingthesmartway.com"
+    },
+    {
+      "id": 2,
+      "username": "Steve",
+      "password": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "id": 3,
+      "username": "Ann",
+      "password": "Smith",
+      "email": "ann@codingthesmartway.com"
+    },
+    {
+      "id": 4,
+    "username": "Taras",
+    "password": "1234",
+    "email": "ann@codingthesmartway.com"
+    }
+  ]
+}
