@@ -15,6 +15,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { AuthenticationModule } from './authentication/authentication.module';
 
+import * as rxjs from 'rxjs';
+
+rxjs.of(1, 2, 3);
 
 @NgModule({
   declarations: [
